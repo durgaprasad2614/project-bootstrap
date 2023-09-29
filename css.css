@@ -1,0 +1,159 @@
+#nav{
+    display:flex;
+    justify-content: space-between;
+}
+#end{
+    display:flex;
+    justify-content:flex-end;
+}
+.slides:hover{
+    background-color:green!important;
+}
+
+.carousel-control-prev-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+   
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+
+}
+.trans{
+    color:white !important;
+    font-size: 25px;
+}
+.back{
+    
+    background-image: url("image.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.content{
+   display:flex;
+   flex-direction: column;
+   justify-content: center; 
+   
+   align-content: center;
+   text-align:center;
+   height: 100%;
+} 
+.pad{
+    padding:10% 30% 10% 30% ;
+    color:white
+}
+.btn1{
+    background-color:aqua;
+}
+.btn:hover{
+    background-color:transparent;
+}
+.button{
+    display:flex;
+    justify-content:center;
+    
+}
+.service{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:5% 30%;
+
+}
+#class2{
+    display:flex;
+    flex-direction:column;
+    
+    justify-content:space-between;
+    height: 100%;
+    width: 90vw;
+    
+
+}
+.welding{
+    width:90vw;
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .welding *{
+      margin:10px;
+    }
+}
+#btnn{
+    display:flex;
+    justify-content: center;
+}
+.class3{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+}
+#person{
+    width:100%;
+    height:100%;
+}
+.team{
+    padding:0% 20%;
+    text-align:center;
+    margin-top:50px;
+}
+.dis{
+    background-color:darkolivegreen;
+}
+.class5{
+    margin-top:60px
+}
+.gi{
+    display:flex;
+    justify-content:space-around;
+}
+.hi{
+    background-color:transparent!important;
+    color:white !important;
+}
+.hii{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around; 
+    
+    
+    
+    
+}
+.li{
+    text-align: center;
+    margin-top:30px;
+}
+.class7{
+    background-color: darkcyan;
+    color:white;
+    
+}
+.foot{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    text-align: center;
+
+}
+.final{
+    padding:2% 20%;
+}
+/* .ls{
+    display:flex;
+    flex-direction: column !important;
+    align-content: center !important;
+    text-align: center !important;
+    justify-content:center !important;
+} */
+.rohan{
+    margin:0% 30%;
+    width:30%;
+}
+
